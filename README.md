@@ -1,4 +1,6 @@
-# React Express Starter Pack
+6003CEM - MealsWebAPI - Assignment (APRIL2024)
+
+# This Meals Web API is created from the base of React Express Starter Pack
 
 > Create full stack apps with React and Express. Run your client and server with a single command. 
 
@@ -26,18 +28,3 @@ npm run client
 
 # Server runs on http://localhost:5000 and client on http://localhost:3000
 ```
-
-## App Info
-
-### Author
-
-Brad Traversy
-[Traversy Media](http://www.traversymedia.com)
-
-### Version
-
-1.0.0
-
-### License
-
-This project is licensed under the MIT License
