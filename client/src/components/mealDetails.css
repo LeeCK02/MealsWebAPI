@@ -1,0 +1,22 @@
+.meal-details {
+    width: 80%;
+    margin: auto; /* Center align horizontally */
+    padding: 1rem;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .meal-details img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .meal-details h2 {
+    margin-top: 0;
+  }
+  
+  .meal-details p {
+    line-height: 1.6;
+  }

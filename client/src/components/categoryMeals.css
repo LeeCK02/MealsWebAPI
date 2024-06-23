@@ -1,0 +1,64 @@
+/* CategoryMeals.css */
+
+.category-meals {
+    padding: 2rem;
+  }
+  
+  .meal-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    width: 80%;
+    margin: auto;
+    padding: 1rem;
+  }
+  
+  .meal-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    text-align: center;
+    color: #333; /* Darken the text color */
+    transition: all 0.3s ease; /* Add smooth transition */
+  }
+  
+  .meal-item:hover {
+    transform: translateY(-5px); /* Add slight lift effect on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add subtle shadow on hover */
+  }
+  
+  .meal-item img {
+    width: 100%; /* Ensure the image takes full width of its container */
+    max-height: 150px; /* Limit maximum height for consistency */
+    object-fit: cover; /* Maintain aspect ratio and cover space */
+    border-radius: 8px;
+    margin-bottom: 0.5rem; /* Add space below the image */
+  }
+  
+  .meal-item h3 {
+    font-size: 1.2rem; /* Keep font size for meal titles */
+    margin: 0.5rem 0;
+    text-decoration: none; 
+    overflow-wrap: break-word; /* Ensure long words break and wrap */
+  }
+  
+  .add-to-favorites {
+    margin-top: auto; /* Push button to bottom of the meal item */
+    margin-bottom: 0.5rem; /* Add some space above the button */
+    background-color: #61dafb; /* background */
+    color: white; /* White text color */
+    border: none; /* Remove border */
+    padding: 0.5rem 1rem; /* Padding for button */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Cursor style */
+    transition: background-color 0.3s ease; /*transition */
+  }
+  
+  .add-to-favorites:hover {
+    background-color: #21a1f1; /* Darken the background on hover */
+  }
+  

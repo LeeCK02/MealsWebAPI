@@ -1,0 +1,47 @@
+/* Profile.css */
+
+.profile-container {
+    padding: 2rem;
+    max-width: 400px;
+    margin: auto;
+    text-align: left;
+  }
+  
+  .profile-container h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .profile-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .profile-container form div {
+    margin-bottom: 1rem;
+  }
+  
+  .profile-container form label {
+    font-weight: bold;
+  }
+  
+  .profile-container form input {
+    padding: 0.5rem;
+    font-size: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .profile-container form button {
+    padding: 0.5rem;
+    font-size: 1rem;
+    background-color: #61dafb;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .profile-container form button:hover {
+    background-color: #21a1f1;
+  }
+  
